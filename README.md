@@ -7,7 +7,6 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:steven.matthiesen@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <img src="https://img.shields.io/badge/San_Francisco-1e2327?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Francisco"/>
 <img src="https://komarev.com/ghpvc/?username=slmatthiesen&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views"/>
 
@@ -21,9 +20,10 @@
 const steven = {
   role:    "AI Engineer · CTO @ INTU",
   focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG",
-            "multimodal doc + image ingestion", "evals", "observability"],
+            "multimodal doc + image ingestion", "evals", "observability",
+            "fully agentic systems"],
   stack:   ["React", "Node", "Python", "Rust", "Postgres", "GraphQL"],
-  web3:    ["MPC", "DKG", "EVM", "Solana"],
+  web3:    ["MPC", "DKG", "EVM", "Solana", "Solidity"],
   shipping: "production agent systems",
 };
 ```
