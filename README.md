@@ -1,3 +1,4 @@
+<!-- Canonical source for the slmatthiesen/slmatthiesen GitHub profile README. Edit here, paste to that repo. Public surface — follow privacy.md (no primary email). -->
 <div align="center">
 
 <a href="https://github.com/slmatthiesen">
@@ -20,8 +21,7 @@
 const steven = {
   role:    "AI Engineer · CTO @ INTU",
   focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG",
-            "multimodal doc + image ingestion", "evals", "observability",
-            "fully agentic systems"],
+            "multimodal doc + image ingestion", "evals", "observability", "fully agentic systems"],
   stack:   ["React", "Node", "Python", "Rust", "Postgres", "GraphQL"],
   web3:    ["MPC", "DKG", "EVM", "Solana", "Solidity"],
   shipping: "production agent systems",
@@ -78,12 +78,47 @@ Open-source NPM package orchestrating **distributed key generation (DKG)** and m
 </td>
 <td width="50%" valign="top">
 
+#### 🤖 Agentic Issues Fixer
+**Autonomous coding agent**
+
+An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and opens a PR — closing the loop from issue to reviewable change. **Proof:** [medplum/medplum#9293](https://github.com/medplum/medplum/pull/9293) — an upstream OSS fix landed **fully agentically** ([working branch](https://github.com/slmatthiesen/medplum/tree/archon/task-fix-medplum-issue-1779744141849)).
+
+`Agents` · `Tool Use` · `GitHub API` · `OSS`
+
+<a href="https://youtu.be/h9VyaiIEEMY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/h9VyaiIEEMY/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/h9VyaiIEEMY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📈 Algorithmic Futures Trading
+**Quant Research · WIP**
+
+Backtest harness and execution research for systematic futures strategies — applying the same eval + observability discipline I use on AI agents to strategy selection, slippage modeling, and live risk.
+
+`Python` · `Quant` · `Backtesting` · `WIP`
+
+<a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/RvMFT4ZE9_w/maxresdefault.jpg" alt="Watch the algorithmic futures trading demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
 #### 🩺 OpenEMR Clinical Agent
 **Selected Project · 2026**
 
 LLM agent layered onto an open-source EHR that reads patient charts and relays clinical context on demand. Lab-report ingestion pipeline produces summaries with **source-page citations**, so clinicians can verify any agent-surfaced claim — a RAG pattern tuned for high-stakes clinical use.
 
 `RAG` · `LLM Agents` · `Citations` · `Healthcare`
+
+<a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/majmoNyEHqY/maxresdefault.jpg" alt="Watch the OpenEMR Clinical Agent demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 </tr>
@@ -100,30 +135,14 @@ Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** 
 </td>
 <td width="50%" valign="top">
 
-#### 🤖 Agentic Issues Fixer
-**Autonomous coding agent**
-
-An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and opens a PR — closing the loop from issue to reviewable change. **Proof:** [medplum/medplum#9293](https://github.com/medplum/medplum/pull/9293) — an upstream OSS fix landed **fully agentically** ([working branch](https://github.com/slmatthiesen/medplum/tree/archon/task-fix-medplum-issue-1779744141849)).
-
-`Agents` · `Tool Use` · `GitHub API` · `OSS`
-
-</td>
-</tr>
-</table>
-
----
-
-### 🧪 &nbsp;/extra
-
-#### 📈 Algorithmic Futures Trading
-Backtest harness and execution research for systematic futures strategies — applying the same eval + observability discipline I use on AI agents to strategy selection, slippage modeling, and live risk.
-
-`Python` · `Quant` · `Backtesting` · `WIP`
-
 <!-- More entries coming. Template:
 #### [Project Name](repo-url)
 One-line description.  `Tag` · `Tag` · `Tag`
 -->
+
+</td>
+</tr>
+</table>
 
 ---
 
