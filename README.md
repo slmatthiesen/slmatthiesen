@@ -1,9 +1,7 @@
 <!-- Canonical source for the slmatthiesen/slmatthiesen GitHub profile README. Edit here, paste to that repo. Public surface — follow privacy.md (no primary email). -->
 <div align="center">
 
-<a href="https://github.com/slmatthiesen">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=820&height=70&lines=AI+Engineer+building+production+agent+systems;Agents+%E2%80%A2+RAG+%E2%80%A2+Evals+%E2%80%A2+Observability;" alt="Steven Matthiesen" />
-</a>
+<h2>AI Engineer building agentic systems</h2>
 
 <br/>
 
@@ -32,6 +30,18 @@ I build agent systems that survive contact with production — tool-using LLMs w
 
 ---
 
+### 🔁 &nbsp;/method
+
+```text
+   ideas ──▶ evals ──▶ guardrails ──▶ build ──▶ review ──▶ production
+     ▲                                                           │
+     └─────────── observe · measure · iterate · harden ◀────────┘
+```
+
+Design intent before code: I write the evals and guardrails *before* a line ships, then let observability close the loop — every production failure feeds the next iteration instead of disappearing.
+
+---
+
 ### 🧠 &nbsp;/stack
 
 **AI / ML**
@@ -45,12 +55,29 @@ I build agent systems that survive contact with production — tool-using LLMs w
 
 **Languages & Core**
 
-![TypeScript](https://skillicons.dev/icons?i=ts,nodejs,react,python,go,rust,graphql,postgres,mysql,php)
-
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
 **Platforms**
 
-![Stack](https://skillicons.dev/icons?i=aws,gcp,docker,firebase) &nbsp;![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white) ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
 
 
 **Web3**
@@ -146,19 +173,20 @@ One-line description.  `Tag` · `Tag` · `Tag`
 
 ---
 
-### 📊 &nbsp;GitHub
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=slmatthiesen&show_icons=true&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=DB2777&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slmatthiesen&layout=compact&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=C9D1D9&langs_count=8" alt="Top languages" />
+### ⚡ &nbsp;Efficiency &gt; token-maxing
+
+<p>
+I burn a lot of tokens — <em>on purpose</em>. But spending them to look busy is waste.<br/>
+The craft is <strong>signal per token</strong>: tight context, sharp evals, and failure modes that are observable instead of mysterious.<br/>
+Every system above was designed, built, and shipped on a <strong>~$100/month plan</strong>.
+</p>
+
+<a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+&nbsp;
+<a href="https://www.youtube.com/channel/UCdTbjwhCXshKvpvJv697LXQ"><img src="https://img.shields.io/badge/Watch_the_builds-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
 
 </div>
 
----
-
-<!--div align="center">
-
-*Building things that hold up under load — on-chain and in production.*
-
-</div-->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" width="100%" alt="" />
