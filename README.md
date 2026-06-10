@@ -192,8 +192,7 @@ Every system above was designed, built, and shipped on a <strong>~$100/month pla
 
 <a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
-<--a href="https://www.youtube.com/channel/UCdTbjwhCXshKvpvJv697LXQ"><img src="https://img.shields.io/badge/Watch_the_builds-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></--a>
-
+<!--a href="https://www.youtube.com/channel/UCdTbjwhCXshKvpvJv697LXQ"><img src="https://img.shields.io/badge/Watch_the_builds-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a-->
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" width="100%" alt="" />
