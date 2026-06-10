@@ -152,6 +152,16 @@ LLM agent layered onto an open-source EHR that reads patient charts and relays c
 <tr>
 <td width="50%" valign="top">
 
+#### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
+**Live · 2026**
+
+Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
+
+`Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
+
+</td>
+<td width="50%" valign="top">
+
 #### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
 **Lead AI & Blockchain Engineer**
 
@@ -160,16 +170,13 @@ Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** 
 `MCP` · `Agents` · `Evals` · `Personalization`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
 
 <!-- More entries coming. Template:
 #### [Project Name](repo-url)
 One-line description.  `Tag` · `Tag` · `Tag`
 -->
-
-</td>
-</tr>
-</table>
 
 ---
 
