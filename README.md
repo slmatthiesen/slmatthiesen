@@ -105,16 +105,16 @@ Open-source NPM package orchestrating **distributed key generation (DKG)** and m
 </td>
 <td width="50%" valign="top">
 
-#### 🤖 Agentic Issues Fixer
+#### 🤖 Agentic Github Issues Fixer
 **Autonomous coding agent**
 
 An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and opens a PR — closing the loop from issue to reviewable change. **Proof:** [medplum/medplum#9293](https://github.com/medplum/medplum/pull/9293) — an upstream OSS fix landed **fully agentically** ([working branch](https://github.com/slmatthiesen/medplum/tree/archon/task-fix-medplum-issue-1779744141849)).
 
 `Agents` · `Tool Use` · `GitHub API` · `OSS`
 
-<a href="https://youtu.be/h9VyaiIEEMY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/h9VyaiIEEMY/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
+<a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/h9VyaiIEEMY/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
 
-▶️ <a href="https://youtu.be/h9VyaiIEEMY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 
@@ -193,6 +193,7 @@ Every system above was designed, built, and shipped on a <strong>~$100/month pla
 <a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
 <!--a href="https://www.youtube.com/channel/UCdTbjwhCXshKvpvJv697LXQ"><img src="https://img.shields.io/badge/Watch_the_builds-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a-->
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" width="100%" alt="" />
