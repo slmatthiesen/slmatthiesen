@@ -91,6 +91,12 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 
 ### 🚀 &nbsp;/review
 
+#### ☁️ [Drafture](https://drafture.dev) — Plain-English → safe, costed AWS architecture &nbsp;·&nbsp; **Live** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/drafture)
+
+You describe a system in plain English; Drafture returns a recommended AWS design as a labeled data-flow diagram, ordered setup steps, and cost estimates in each service's **native unit** — across **budget / balanced / resilient** tiers, with a security floor baked into all three (the budget tier is the *minimum safe cost*, never a security-relaxed one). The LLM returns a **validated typed graph** (provider-abstracted, Claude by default); the backend renders Mermaid diagrams and cost tables **deterministically** from it, so diagrams are reliable and costs are computable. A curated knowledge base grounds generation, with an optional research-and-cache step for unseen topics.
+
+`Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -112,7 +118,7 @@ An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and 
 
 `Agents` · `Tool Use` · `GitHub API` · `OSS`
 
-<a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/h9VyaiIEEMY/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
+<a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/KUgnANt6aTs/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
 
 ▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
