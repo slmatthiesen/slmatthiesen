@@ -159,7 +159,7 @@ LLM agent layered onto an open-source EHR that reads patient charts and relays c
 <td width="50%" valign="top">
 
 #### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
-**Live · 2026**
+**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/happyhourfriends)
 
 Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
 
