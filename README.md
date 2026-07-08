@@ -97,7 +97,11 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 
 `Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
 
-▶️ <a href="https://share.descript.com/view/oDLrzSDA3yo" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+<a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Z1jUKFBpayk/maxresdefault.jpg" alt="Watch the Drafture demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+---
 
 <table>
 <tr>
@@ -113,6 +117,18 @@ Open-source NPM package orchestrating **distributed key generation (DKG)** and m
 </td>
 <td width="50%" valign="top">
 
+#### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
+**Lead AI & Blockchain Engineer**
+
+Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** with structured-output validation. Curated eval set + offline regression harness catches failures before deploy; production traces drive failure-mode analysis. Personalization layer surfaces targeted coupons from purchase history.
+
+`MCP` · `Agents` · `Evals` · `Personalization`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### 🤖 Agentic Github Issues Fixer
 **Autonomous coding agent**
 
@@ -125,9 +141,6 @@ An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and 
 ▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
-
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 📈 Algorithmic Futures Trading
@@ -142,6 +155,8 @@ Backtest harness and execution research for systematic futures strategies — ap
 ▶️ <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🩺 OpenEMR Clinical Agent
@@ -156,8 +171,6 @@ LLM agent layered onto an open-source EHR that reads patient charts and relays c
 ▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
@@ -167,17 +180,9 @@ Fully **agent-operated** site: every update — **parsed automatically** from th
 
 `Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
 
-▶️ <a href="https://share.descript.com/view/4j23B2cZNrf" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+<a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Y9ncwzkj4Qc/maxresdefault.jpg" alt="Watch the Happy Hour Friends demo" width="100%" /></a>
 
-</td>
-<td width="50%" valign="top">
-
-#### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
-**Lead AI & Blockchain Engineer**
-
-Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** with structured-output validation. Curated eval set + offline regression harness catches failures before deploy; production traces drive failure-mode analysis. Personalization layer surfaces targeted coupons from purchase history.
-
-`MCP` · `Agents` · `Evals` · `Personalization`
+▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 </tr>
