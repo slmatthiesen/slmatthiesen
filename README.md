@@ -107,6 +107,16 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 <tr>
 <td width="50%" valign="top">
 
+#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
+**CTO · Lead Engineer**
+
+Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
+
+`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
+
+</td>
+<td width="50%" valign="top">
+
 #### 🤖 Agentic Github Issues Fixer
 **Autonomous coding agent**
 
@@ -119,6 +129,8 @@ An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and 
 ▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🩺 OpenEMR Clinical Agent
@@ -133,8 +145,6 @@ LLM agent layered onto an open-source EHR that reads patient charts and relays c
 ▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
@@ -149,6 +159,8 @@ Fully **agent-operated** site: every update — **parsed automatically** from th
 ▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 📈 Algorithmic Futures Trading
@@ -161,18 +173,6 @@ Backtest harness and execution research for systematic futures strategies — ap
 <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/RvMFT4ZE9_w/maxresdefault.jpg" alt="Watch the algorithmic futures trading demo" width="100%" /></a>
 
 ▶️ <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
-**CTO · Lead Engineer**
-
-Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
-
-`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
 
 </td>
 <td width="50%" valign="top">
