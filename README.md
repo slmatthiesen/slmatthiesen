@@ -107,28 +107,6 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 <tr>
 <td width="50%" valign="top">
 
-#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
-**CTO · Lead Engineer**
-
-Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
-
-`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
-**Lead AI & Blockchain Engineer**
-
-Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** with structured-output validation. Curated eval set + offline regression harness catches failures before deploy; production traces drive failure-mode analysis. Personalization layer surfaces targeted coupons from purchase history.
-
-`MCP` · `Agents` · `Evals` · `Personalization`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 #### 🤖 Agentic Github Issues Fixer
 **Autonomous coding agent**
 
@@ -139,6 +117,36 @@ An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and 
 <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/KUgnANt6aTs/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
 
 ▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🩺 OpenEMR Clinical Agent
+**Selected Project · 2026**
+
+LLM agent layered onto an open-source EHR that reads patient charts and relays clinical context on demand. Lab-report ingestion pipeline produces summaries with **source-page citations**, so clinicians can verify any agent-surfaced claim — a RAG pattern tuned for high-stakes clinical use.
+
+`RAG` · `LLM Agents` · `Citations` · `Healthcare`
+
+<a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/majmoNyEHqY/maxresdefault.jpg" alt="Watch the OpenEMR Clinical Agent demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
+**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/happyhourfriends)
+
+Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
+
+`Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
+
+<a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Y9ncwzkj4Qc/maxresdefault.jpg" alt="Watch the Happy Hour Friends demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 <td width="50%" valign="top">
@@ -159,30 +167,22 @@ Backtest harness and execution research for systematic futures strategies — ap
 <tr>
 <td width="50%" valign="top">
 
-#### 🩺 OpenEMR Clinical Agent
-**Selected Project · 2026**
+#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
+**CTO · Lead Engineer**
 
-LLM agent layered onto an open-source EHR that reads patient charts and relays clinical context on demand. Lab-report ingestion pipeline produces summaries with **source-page citations**, so clinicians can verify any agent-surfaced claim — a RAG pattern tuned for high-stakes clinical use.
+Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
 
-`RAG` · `LLM Agents` · `Citations` · `Healthcare`
-
-<a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/majmoNyEHqY/maxresdefault.jpg" alt="Watch the OpenEMR Clinical Agent demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
 
 </td>
 <td width="50%" valign="top">
 
-#### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
-**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/happyhourfriends)
+#### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
+**Lead AI & Blockchain Engineer**
 
-Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
+Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** with structured-output validation. Curated eval set + offline regression harness catches failures before deploy; production traces drive failure-mode analysis. Personalization layer surfaces targeted coupons from purchase history.
 
-`Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
-
-<a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Y9ncwzkj4Qc/maxresdefault.jpg" alt="Watch the Happy Hour Friends demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+`MCP` · `Agents` · `Evals` · `Personalization`
 
 </td>
 </tr>
