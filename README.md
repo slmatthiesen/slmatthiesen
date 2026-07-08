@@ -97,6 +97,8 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 
 `Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
 
+▶️ <a href="https://share.descript.com/view/oDLrzSDA3yo" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -164,6 +166,8 @@ LLM agent layered onto an open-source EHR that reads patient charts and relays c
 Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
 
 `Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
+
+▶️ <a href="https://share.descript.com/view/4j23B2cZNrf" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 <td width="50%" valign="top">
