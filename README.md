@@ -35,7 +35,7 @@ I build agent systems that survive contact with production — tool-using LLMs w
 ```text
    ideas ──▶ evals ──▶ guardrails ──▶ build ──▶ review ──▶ production
      ▲                                                           │
-     └─────────── observe · measure · iterate · harden ◀────────┘
+     └─────────── [observe · measure · iterate · harden] ◀────────┘
 ```
 
 Design intent before code: I write the evals and guardrails *before* a line ships, then let observability close the loop — every production failure feeds the next iteration instead of disappearing.
