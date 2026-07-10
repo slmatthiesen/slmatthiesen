@@ -18,7 +18,7 @@
 ```ts
 const steven = {
   role:    "AI Engineer · CTO @ INTU",
-  focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG",
+  focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG", "harnesses"
             "multimodal doc + image ingestion", "evals", "observability", "fully agentic systems"],
   stack:   ["React", "Node", "Python", "Rust", "Postgres", "GraphQL"],
   web3:    ["MPC", "DKG", "EVM", "Solana", "Solidity"],
