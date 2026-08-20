@@ -7,7 +7,6 @@
 
 <a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <img src="https://img.shields.io/badge/San_Francisco-1e2327?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Francisco"/>
-<img src="https://komarev.com/ghpvc/?username=slmatthiesen&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
