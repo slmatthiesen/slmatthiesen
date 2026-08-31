@@ -91,6 +91,16 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 
 ### 🚀 &nbsp;/review
 
+#### 🛡️ Bulkhead — Durable Agent Execution Runtime &nbsp;·&nbsp; **2026** &nbsp;·&nbsp; [`demo`](https://youtu.be/SRr99VF2RAw)
+
+An open-source execution harness for LLM agents designed for crash resilience and side-effect guarantees. Features hard crash recovery (`kill -9`), queue lease management via PostgreSQL `SKIP LOCKED`, checkpoint replays, and outbox idempotency key deduplication to prevent double-spending purchase orders.
+
+`Golang` · `Distributed Systems` · `PostgreSQL` · `Idempotency` · `Agents`
+
+<a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/SRr99VF2RAw/maxresdefault.jpg" alt="Watch the Bulkhead crash recovery demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><strong>Watch the crash recovery demo</strong></a>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -105,16 +115,14 @@ Open-source NPM package orchestrating **distributed key generation (DKG)** and m
 </td>
 <td width="50%" valign="top">
 
-#### 🛡️ Bulkhead — Durable Agent Execution Runtime
-**Resilient Agent Harness · 2026**
+#### ☁️ [Drafture](https://drafture.dev) — Plain-English → safe, costed AWS architecture
+**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/drafture)
 
-Open-source runtime for LLM agents designed for crash resilience and side-effect guarantees. Features hard crash recovery (`kill -9`), queue lease management via PostgreSQL `SKIP LOCKED`, checkpoint replays, and outbox idempotency key deduplication to prevent double-spending purchase orders.
+You describe a system in plain English; Drafture returns a recommended AWS design as a labeled data-flow diagram, ordered setup steps, and cost estimates in each service's **native unit** — across **budget / balanced / resilient** tiers, with a security floor baked into all three. The LLM returns a **validated typed graph**; the backend renders Mermaid diagrams and cost tables **deterministically** from it.
 
-`Golang` · `Distributed Systems` · `PostgreSQL` · `Idempotency` · `Agents`
+`Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
 
-<a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/SRr99VF2RAw/maxresdefault.jpg" alt="Watch the Bulkhead crash recovery demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+▶️ <a href="https://drafture.dev" target="_blank" rel="noopener noreferrer"><strong>Try live at drafture.dev</strong></a>
 
 </td>
 
