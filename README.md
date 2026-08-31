@@ -7,6 +7,7 @@
 
 <a href="https://www.linkedin.com/in/smatthiesen"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <img src="https://img.shields.io/badge/San_Francisco-1e2327?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Francisco"/>
+<img src="https://komarev.com/ghpvc/?username=slmatthiesen&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
@@ -17,7 +18,7 @@
 ```ts
 const steven = {
   role:    "AI Engineer · CTO @ INTU",
-  focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG", "harnesses"
+  focus:   ["LLM agents", "agentic issue-fix pipelines", "RAG",
             "multimodal doc + image ingestion", "evals", "observability", "fully agentic systems"],
   stack:   ["React", "Node", "Python", "Rust", "Postgres", "GraphQL"],
   web3:    ["MPC", "DKG", "EVM", "Solana", "Solidity"],
@@ -34,7 +35,7 @@ I build agent systems that survive contact with production — tool-using LLMs w
 ```text
    ideas ──▶ evals ──▶ guardrails ──▶ build ──▶ review ──▶ production
      ▲                                                           │
-     └─────────── [observe · measure · iterate · harden] ◀────────┘
+     └─────────── observe · measure · iterate · harden ◀────────┘
 ```
 
 Design intent before code: I write the evals and guardrails *before* a line ships, then let observability close the loop — every production failure feeds the next iteration instead of disappearing.
@@ -67,16 +68,16 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 
 **Platforms**
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-34A853?style=flat-square&logo=googlecloud&logoColor=white)
 
 
 **Web3**
@@ -96,12 +97,6 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 
 `Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
 
-<a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Z1jUKFBpayk/maxresdefault.jpg" alt="Watch the Drafture demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
-
----
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -116,48 +111,17 @@ Open-source NPM package orchestrating **distributed key generation (DKG)** and m
 </td>
 <td width="50%" valign="top">
 
-#### 🤖 Agentic Github Issues Fixer
-**Autonomous coding agent**
+#### 🛡️ Bulkhead — Durable Agent Execution Runtime
+**Resilient Agent Harness · 2026**
 
-An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and opens a PR — closing the loop from issue to reviewable change. **Proof:** [medplum/medplum#9293](https://github.com/medplum/medplum/pull/9293) — an upstream OSS fix landed **fully agentically** ([working branch](https://github.com/slmatthiesen/medplum/tree/archon/task-fix-medplum-issue-1779744141849)).
+Open-source runtime for LLM agents designed for crash resilience and side-effect guarantees. Features hard crash recovery (`kill -9`), queue lease management via PostgreSQL `SKIP LOCKED`, checkpoint replays, and outbox idempotency key deduplication to prevent double-spending purchase orders.
 
-`Agents` · `Tool Use` · `GitHub API` · `OSS`
+`Golang` · `Distributed Systems` · `PostgreSQL` · `Idempotency` · `Agents`
 
-<a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/KUgnANt6aTs/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+▶️ <a href="https://share.descript.com/view/8xbsqxxxybX" target="_blank" rel="noopener noreferrer"><strong>Watch the crash recovery demo</strong></a>
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
-#### 🩺 OpenEMR Clinical Agent
-**Selected Project · 2026**
-
-LLM agent layered onto an open-source EHR that reads patient charts and relays clinical context on demand. Lab-report ingestion pipeline produces summaries with **source-page citations**, so clinicians can verify any agent-surfaced claim — a RAG pattern tuned for high-stakes clinical use.
-
-`RAG` · `LLM Agents` · `Citations` · `Healthcare`
-
-<a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/majmoNyEHqY/maxresdefault.jpg" alt="Watch the OpenEMR Clinical Agent demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
-**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/happyhourfriends)
-
-Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
-
-`Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
-
-<a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Y9ncwzkj4Qc/maxresdefault.jpg" alt="Watch the Happy Hour Friends demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -176,12 +140,42 @@ Backtest harness and execution research for systematic futures strategies — ap
 </td>
 <td width="50%" valign="top">
 
-#### 🍽️ [GURUPass / Pass Rewards](https://apps.apple.com/us/app/pass-rewards/id6757899189) — Restaurant AI Agents
-**Lead AI & Blockchain Engineer**
+#### 🩺 OpenEMR Clinical Agent
+**Selected Project · 2026**
 
-Tool-using LLM agents handling order intake and menu Q&A, wired through **MCP** with structured-output validation. Curated eval set + offline regression harness catches failures before deploy; production traces drive failure-mode analysis. Personalization layer surfaces targeted coupons from purchase history.
+LLM agent layered onto an open-source EHR that reads patient charts and relays clinical context on demand. Lab-report ingestion pipeline produces summaries with **source-page citations**, so clinicians can verify any agent-surfaced claim — a RAG pattern tuned for high-stakes clinical use.
 
-`MCP` · `Agents` · `Evals` · `Personalization`
+`RAG` · `LLM Agents` · `Citations` · `Healthcare`
+
+<a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/majmoNyEHqY/maxresdefault.jpg" alt="Watch the OpenEMR Clinical Agent demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/majmoNyEHqY" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤖 Agentic Github Issues Fixer
+**Autonomous coding agent**
+
+An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and opens a PR — closing the loop from issue to reviewable change. **Proof:** [medplum/medplum#9293](https://github.com/medplum/medplum/pull/9293) — an upstream OSS fix landed **fully agentically** ([working branch](https://github.com/slmatthiesen/medplum/tree/archon/task-fix-medplum-issue-1779744141849)).
+
+`Agents` · `Tool Use` · `GitHub API` · `OSS`
+
+<a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/KUgnANt6aTs/maxresdefault.jpg" alt="Watch the agentic issue-fix demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/KUgnANt6aTs" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🍻 [Happy Hour Friends](https://happyhourfriends.com) — Crowdsourced happy hour finder
+**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/happyhourfriends)
+
+Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
+
+`Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
 
 </td>
 </tr>
