@@ -91,12 +91,6 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 
 ### 🚀 &nbsp;/review
 
-#### ☁️ [Drafture](https://drafture.dev) — Plain-English → safe, costed AWS architecture &nbsp;·&nbsp; **Live** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/drafture)
-
-You describe a system in plain English; Drafture returns a recommended AWS design as a labeled data-flow diagram, ordered setup steps, and cost estimates in each service's **native unit** — across **budget / balanced / resilient** tiers, with a security floor baked into all three (the budget tier is the *minimum safe cost*, never a security-relaxed one). The LLM returns a **validated typed graph** (provider-abstracted, Claude by default); the backend renders Mermaid diagrams and cost tables **deterministically** from it, so diagrams are reliable and costs are computable. A curated knowledge base grounds generation, with an optional research-and-cache step for unseen topics.
-
-`Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -118,7 +112,9 @@ Open-source runtime for LLM agents designed for crash resilience and side-effect
 
 `Golang` · `Distributed Systems` · `PostgreSQL` · `Idempotency` · `Agents`
 
-▶️ <a href="https://share.descript.com/view/8xbsqxxxybX" target="_blank" rel="noopener noreferrer"><strong>Watch the crash recovery demo</strong></a>
+<a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/SRr99VF2RAw/maxresdefault.jpg" alt="Watch the Bulkhead crash recovery demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 
@@ -176,6 +172,10 @@ An agent that triages open GitHub issues, reproduces the bug, drafts a fix, and 
 Fully **agent-operated** site: every update — **parsed automatically** from the web or **submitted by users** — passes strict **agentic moderation gates** (classify → verify, versioned prompts, audited apply path) before going live. The test: can my agent safeguards run the site without my intervention? The product itself is dead-simple — venues and deals in one sortable, filterable view, kept current by **crowdsourcing**.
 
 `Agents` · `Crowdsourcing` · `Moderation Gates` · `Next.js`
+
+<a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Y9ncwzkj4Qc/maxresdefault.jpg" alt="Watch the Happy Hour Friends demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 </tr>
