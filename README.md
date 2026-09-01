@@ -122,7 +122,9 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 
 `Structured Output` · `RAG` · `Claude` · `AWS` · `Fastify` · `React`
 
-▶️ <a href="https://drafture.dev" target="_blank" rel="noopener noreferrer"><strong>Try live at drafture.dev</strong></a>
+<a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/Z1jUKFBpayk/maxresdefault.jpg" alt="Watch the Drafture demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/Z1jUKFBpayk" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a> &nbsp;·&nbsp; <a href="https://drafture.dev" target="_blank" rel="noopener noreferrer"><strong>Try live</strong></a>
 
 </td>
 
