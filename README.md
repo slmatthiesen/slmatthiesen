@@ -105,12 +105,16 @@ An open-source execution harness for LLM agents designed for crash resilience an
 <tr>
 <td width="50%" valign="top">
 
-#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
-**CTO · Lead Engineer**
+#### 🛡️ [Agent Atlas — GCP Agent Governance](https://github.com/slmatthiesen/agent-atlas)
+**Live · 2026** &nbsp;·&nbsp; [`source`](https://github.com/slmatthiesen/agent-atlas)
 
-Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
+A console for running multi-agent systems on Google Cloud where **identity, not prompt engineering, is the security boundary**. It tests least-privilege IAM containment live, proving that a prompt injection slipping past Model Armor still hits a hard 403.
 
-`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
+`GCP` · `Vertex AI` · `IAM` · `Security` · `Agents`
+
+<a href="https://youtu.be/8Z2eA14xwgE" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/8Z2eA14xwgE/maxresdefault.jpg" alt="Watch the GCP Agent Governance demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/8Z2eA14xwgE" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
 </td>
 <td width="50%" valign="top">
@@ -132,16 +136,12 @@ You describe a system in plain English; Drafture returns a recommended AWS desig
 <tr>
 <td width="50%" valign="top">
 
-#### 📈 Algorithmic Futures Trading
-**Quant Research · WIP**
+#### 🔐 [INTU](https://intu.xyz) — Web3 onboarding via MPC
+**CTO · Lead Engineer**
 
-Backtest harness and execution research for systematic futures strategies — applying the same eval + observability discipline I use on AI agents to strategy selection, slippage modeling, and live risk.
+Open-source NPM package orchestrating **distributed key generation (DKG)** and multi-party computation, removing seed phrases from the onboarding flow. Cross-chain transaction flows across EVM networks, bridged to Solana — sending a Solana tx authorized by an EVM signature. Self-hosted **The Graph** indexers for chains without hosted support.
 
-`Python` · `Quant` · `Backtesting` · `WIP`
-
-<a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/RvMFT4ZE9_w/maxresdefault.jpg" alt="Watch the algorithmic futures trading demo" width="100%" /></a>
-
-▶️ <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+`Rust` · `Solidity` · `MPC` · `EVM` · `TypeScript`
 
 </td>
 <td width="50%" valign="top">
@@ -187,6 +187,25 @@ Fully **agent-operated** site: every update — **parsed automatically** from th
 
 ▶️ <a href="https://youtu.be/Y9ncwzkj4Qc" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📈 Algorithmic Futures Trading
+**Quant Research · WIP**
+
+Backtest harness and execution research for systematic futures strategies — applying the same eval + observability discipline I use on AI agents to strategy selection, slippage modeling, and live risk.
+
+`Python` · `Quant` · `Backtesting` · `WIP`
+
+<a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/RvMFT4ZE9_w/maxresdefault.jpg" alt="Watch the algorithmic futures trading demo" width="100%" /></a>
+
+▶️ <a href="https://youtu.be/RvMFT4ZE9_w" target="_blank" rel="noopener noreferrer"><strong>Watch the demo</strong></a>
+
+</td>
+<td width="50%" valign="top">
+<!-- Empty cell for future project -->
 </td>
 </tr>
 </table>
