@@ -1,4 +1,3 @@
-<!-- Canonical source for the slmatthiesen/slmatthiesen GitHub profile README. Edit here, paste to that repo. Public surface — follow privacy.md (no primary email). -->
 <div align="center">
 
 <h2>AI Engineer building agentic systems</h2>
@@ -40,6 +39,8 @@ I build agent systems that survive contact with production — tool-using LLMs w
 
 Design intent before code: I write the evals and guardrails *before* a line ships, then let observability close the loop — every production failure feeds the next iteration instead of disappearing.
 
+**What that buys you:** on my last agent build, the golden set graded three Gemini tiers deterministically — no LLM judge — across intent extraction, permission gating, and RAG grounding. All three tiers scored the same. The cheapest was **~3x faster at p50 (649ms vs 1,866ms)** and an order of magnitude cheaper. Without the harness I'd have defaulted to the expensive model and paid for accuracy I was already getting.
+
 ---
 
 ### 🧠 &nbsp;/stack
@@ -47,11 +48,11 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 **AI / ML**
 
 ![MCP](https://img.shields.io/badge/MCP_Servers-000000?style=flat-square&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_·_Hybrid_Retrieval-7C3AED?style=flat-square)
-![Evals](https://img.shields.io/badge/Evals_·_RAGAS_·_LLM--as--judge-DB2777?style=flat-square)
-![LangSmith](https://img.shields.io/badge/LangSmith_·_Langfuse-FF6F00?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat-square)
+![Evals](https://img.shields.io/badge/Evals_·_Golden_Sets_·_Deterministic_Grading-DB2777?style=flat-square)
+![Langfuse](https://img.shields.io/badge/Langfuse_·_Custom_Trace_Sinks-FF6F00?style=flat-square)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI_·_Gemini-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
 
 **Languages & Core**
 
@@ -91,11 +92,11 @@ Design intent before code: I write the evals and guardrails *before* a line ship
 
 ### 🚀 &nbsp;/review
 
-#### 🛡️ Bulkhead — Durable Agent Execution Runtime &nbsp;·&nbsp; **2026** &nbsp;·&nbsp; [`demo`](https://youtu.be/SRr99VF2RAw)
+#### 🛡️ Bulkhead — Durable, Replayable Agent Execution Runtime &nbsp;·&nbsp; **2026** &nbsp;·&nbsp; [`demo`](https://youtu.be/SRr99VF2RAw)
 
-An open-source execution harness for LLM agents designed for crash resilience and side-effect guarantees. Features hard crash recovery (`kill -9`), queue lease management via PostgreSQL `SKIP LOCKED`, checkpoint replays, and outbox idempotency key deduplication to prevent double-spending purchase orders.
+An open-source Go runtime that makes agent runs **survivable and replayable**. `kill -9` the control plane mid-loop and the run resumes exactly where it stopped — because model calls are **checkpointed steps**, so a resumed run replays the completion it already saw instead of re-sampling a new one. A Postgres **leased queue** (`SKIP LOCKED`, visibility timeouts, delivery counts) makes crash recovery just redelivery, and **outbox idempotency keys** guarantee **exactly-once side effects**: one purchase order, never two.
 
-`Golang` · `Distributed Systems` · `PostgreSQL` · `Idempotency` · `Agents`
+`Golang` · `Durable Execution` · `Exactly-Once` · `Idempotency` · `Replay` · `PostgreSQL` · `Agents`
 
 <a href="https://youtu.be/SRr99VF2RAw" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/SRr99VF2RAw/maxresdefault.jpg" alt="Watch the Bulkhead crash recovery demo" width="100%" /></a>
 
